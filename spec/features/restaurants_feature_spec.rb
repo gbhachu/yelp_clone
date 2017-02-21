@@ -42,6 +42,7 @@ feature 'restaurants' do
     end
   end
 
+
   context 'viewing restuarants' do
     let!(:kfc){Restaurant.create(name: 'KFC')}
 
