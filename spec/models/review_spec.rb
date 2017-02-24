@@ -7,4 +7,6 @@ describe Review, type: :model do
     review = Review.new(rating: 10, user_id: 1, restaurant_id: 1)
     expect(review).to have(1).error_on(:rating)
   end
+
+  
 end
